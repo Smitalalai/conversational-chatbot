@@ -15,7 +15,7 @@ This project solves that problem by replacing the static browsing experience wit
 
 | **1. Intelligent Consultation** | **2. Order Fulfillment & Receipt** |
 |:---:|:---:|
-| <img src="output 1.png"> | <img src="img2.png" width="300"> |
+| <img src="output 1.png"> | <img src="img 2.png" width="300"> |
 | *Maya detects intent ("Interview") and suggests the "Sneakers" category based on user preference, displaying persistent product cards.* | *The bot confirms the selection ("High-Top Legend"), captures sizing details, and generates a final digital receipt.* |
 
 ## ✨ Key Features (UX & Logic)
