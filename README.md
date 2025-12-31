@@ -3,7 +3,6 @@
 ### Analyst Intern Assignment - Task 1
 
 **Live Demo:** [Insert Streamlit Share Link Here]  
-*(If you are hosting it, paste the link above. Otherwise, delete this line.)*
 
 ---
 
@@ -11,6 +10,13 @@
 Inuit is a luxury online footwear shop facing a challenge: high bounce rates due to a lack of product exploration. 
 
 This project solves that problem by replacing the static browsing experience with **"Maya," an Intelligent Styling Concierge**. Unlike standard chatbots, Maya curates choices based on the user's lifestyle (e.g., "Interview" vs. "Gym"), builds trust through transparent policies, and guides the user through a structured sales funnel: **Consultation → Selection → Showcase → Fulfillment**.
+
+## 📸 Application Screenshots
+
+| **1. Intelligent Consultation** | **2. Order Fulfillment & Receipt** |
+|:---:|:---:|
+| <img src="screenshots/consultation.png" width="300"> | <img src="screenshots/receipt.png" width="300"> |
+| *Maya detects intent ("Interview") and suggests the "Sneakers" category based on user preference, displaying persistent product cards.* | *The bot confirms the selection ("High-Top Legend"), captures sizing details, and generates a final digital receipt.* |
 
 ## ✨ Key Features (UX & Logic)
 * **🧠 Intelligent Intent Recognition:** The bot understands context. It maps inputs like *"I have a meeting"* to **Formal** shoes and *"Hitting the gym"* to **Sports** shoes.
@@ -45,4 +51,7 @@ Inuit_Chatbot/
 │
 ├── app.py                # Main application logic
 ├── requirements.txt      # List of dependencies (streamlit, gTTS)
-└── README.md             # Project documentation
+├── README.md             # Project documentation
+└── screenshots/          # Images for documentation
+    ├── consultation.png
+    └── receipt.png
